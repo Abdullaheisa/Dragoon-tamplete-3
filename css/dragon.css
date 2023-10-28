@@ -863,6 +863,7 @@ header .nav-main .mega-menu .links li a i {
     position: absolute;
     height: 100%;
     background-color: var(--main-color);
+    transition: width 1s linear;
 }
 .our-skills .skill .the-progress span::after {
     content: attr(data-width);
